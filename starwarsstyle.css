@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Passion One', helvetica, sans-serif;
+}
+
+.bordered {
+	border-style: solid;
+	border: 3px;
+}
+
+.topbar {
+	display: flex;
+	position: relative;
+	top: 10px;
+}
+
+.topnav, #menu {
+	background-color: black;
+	color: white;
+	padding: 6px;
+	flex-grow: 1;
+	margin: 5px;
+	border-radius: 6px;
+	font-size: 30px;
+}
+
+.topimg {
+	padding: 6px;
+	margin: 5px;
+	height: 50px;
+	width: 50px;
+}
+
+.imgtitle {
+	padding: 6px;
+	margin: 5px;
+	height: 50px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.creds {
+	height: 15px;
+	width: 15px;
+}
+
+.xwingimg {
+	height: 45px;
+	width: 45px;
+}
+
+li {
+	background-color: gray;
+	flex-grow: 1;
+	margin: 5px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.resource {
+	background-color: rgb(220,220,220);
+	height: 100px;
+}
+
+.top {
+	width: 100%;
+	position: fixed;
+	z-index: 20;
+}
+
+h1 {
+	color: white;
+	padding: 3px;
+	margin: 2px;
+	border-radius: 6px;
+	font-size: 35px;
+}
+
+.columns {
+	display: flex;
+	position: relative;
+	top: 10px;
+	z-index: 10;
+}
+
+.pilots {
+	flex: 1;
+	background-color: rgb(97,13,22);
+	border-radius: 8px;
+	margin: 8px;
+	border-color: rgb(138,111,48);
+
+}
+
+.black_market {
+	flex: 1;
+	background-color: black;
+	border-color: gray;
+	border-radius: 8px;
+	margin: 8px;
+}
+
+th {
+	color: white;
+	font-size: 20px;
+	padding: 6px;
+	text-align: left;
+}
+
+.base {
+	flex: 1;
+	background-color: rgb(97,13,22);
+	border-radius: 8px;
+	margin: 8px;
+	border-color: rgb(138,111,48);
+
+}
+
+.civilian_market{
+	flex: 1;
+	background-color: rgb(141,117,94);
+	border-color: gray;
+	border-radius: 8px;
+	margin: 8px;
+
+}
+
+.position_fix {
+	position:static;
+	height: 100px;
+}
+
+.inner {
+	width: 250px;
+}
